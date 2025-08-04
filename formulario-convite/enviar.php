@@ -1,6 +1,6 @@
 <?php
-$nome =addslashes()($_POST['nome']);
-$email = addslashes() ($_POST['email']);
+$nome =addslashes($_POST['nome']);
+$email = addslashes($_POST['email']);
 
 $para = "guilhermeaalmeidze@gmail.com";
 $assunto = "Confirmaçao de presença";
