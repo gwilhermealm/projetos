@@ -9,28 +9,34 @@
 </head>
 <body>
     <main>
+        <!-- Convite -->
         <div class="convite">
              <h1>covite para o aniversário da Nicolly</h1>
-             <button id="confirmar"> confirme ja sua presença</button>
+             <button id="confirmar" onclick="location.href='#formulario-container';"> confirme ja sua presença</button>
 
         </div>
-        <div id="formulario">
+          <!-- Convite -->
+
+            <!-- formulario de presença -->
+        <section id="formulario-container">
+            <div id="formulario">
             <form method="post" action="enviar.php">
                <h2>Preencha e garanta sua presença</h2>
 
-               <p>Nome</p>
-
+              
               <input type="text" id="nome" name="nome" placeholder="digite seu nome" required autocomplete="off" >
 
-              <p>e-mail</p>
-
+             
+              
               <input type="text" id="email" name="email" placeholder="digite um e-mail" required autocomplete="off">
 
               <input type="submit" value="confirmar" name="confirmar" id="enviar">
 
             </form>
-            
+              <!-- fim -->
         </div>
+        </section>
+        
     </main>
   
 </body>
