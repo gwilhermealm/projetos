@@ -91,7 +91,7 @@ section{
 
 #formulario{
     width: 300px;
-    height: 40vh;
+    height: 350px;
     background-color: white;
     border: solid blue 1px;
     margin-left: 100px;
@@ -146,14 +146,14 @@ label{
     
 }
 @media (max-width: 600px) {
-    input#nome{
+    #nome{
         width: 200px;
         height: 30px;
         margin: 20px auto;
         padding: auto;
         
     }
-    input#email{
+    #email{
         width: 200px;
         height: 30px;
         margin: auto;
