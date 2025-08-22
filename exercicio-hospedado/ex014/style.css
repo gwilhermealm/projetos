@@ -32,3 +32,11 @@ footer{
  text-align: center;
  color: white;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+abbr{
+    text-decoration: none;
+    color: white;
+}
